@@ -5,3 +5,7 @@ development:
 test:
   adapter: sqlite3
   database: db/school-test.sqlite3
+
+production:
+  adapter: sqlite3
+  database: db/school-production.sqlite3
